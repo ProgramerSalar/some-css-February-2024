@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav-list-left{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-nav{
+    /* background-color: green; */
+    width: 50%;
+    text-align: right;
+    margin-left:-2rem;
+}
+
+.image{
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 20px;
+    
+    
+}
+
+.nav-list-left li{
+    list-style: none;
+}
+
+.nav-list-left li a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    
+    
+
+}
+
+.nav-list-left li a:hover{
+    color: beige;
+}
+
+.search{
+    padding: 10px;
+    font-size: 30px;
+    border: solid 2px white;
+    border-radius: 20px;
+    width: 50%;
+    height: 60px;
+}
+
+.btn-sm{
+    font-size: 30px;
+    border: solid 3px white;
+    background-color: blue;
+    margin: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-sm:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+.box-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.p1{
+    font-size: 4rem;
+}
+.text-big{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+.shoes-image{
+    width: 30%;
+    
+
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color:blue;
+}
